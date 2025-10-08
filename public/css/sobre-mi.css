@@ -1,0 +1,67 @@
+/* ===== Sección SOBRE MÍ ===== */
+.sobre-mi {
+  background: #f5f5f5;        /* fondo gris claro */
+  padding: 4rem 0;            /* espacio arriba y abajo */
+}
+
+.sobre-mi__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;                 /* separación entre foto y texto */
+  max-width: 1120px;           /* ancho máximo */
+  margin: 0 auto;
+  padding: 0 1rem;             /* padding lateral en pantallas pequeñas */
+}
+
+.sobre-mi__media img {
+  width: 220px;                /* tamaño reducido de la foto */
+  height: auto;
+  border-radius: 12px;         /* esquinas suavemente redondeadas */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15); /* sombra elegante */
+}
+
+.sobre-mi__content {
+  flex: 1;
+}
+
+.sobre-mi__eyebrow {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #3b3b98;             /* azulito */
+  background: #e0e7ff;        /* fondo suave */
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.sobre-mi__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #0f172a;
+}
+
+.sobre-mi__lead {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  color: #333;
+}
+
+.sobre-mi__bullets {
+  list-style: disc;
+  margin: 1rem 0 1.5rem 1.5rem;
+  padding: 0;
+  color: #111;
+}
+
+.sobre-mi__bullets li {
+  margin-bottom: 0.5rem;
+}
+
+.sobre-mi__note {
+  font-style: italic;
+  color: #555;
+}

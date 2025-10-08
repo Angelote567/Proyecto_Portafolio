@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio Ángel Moline</title>
+  <!-- Estilos globales -->
+  <link rel="stylesheet" href="css/styless.css" />
+
+  <!-- Sección Hero -->
+  <link rel="stylesheet" href="css/hero.css" />
+
+  <!-- Sección Sobre mí -->
+  <link rel="stylesheet" href="css/sobre-mi.css" />
+
+  <!-- Sección Habilidades -->
+  <link rel="stylesheet" href="css/skills.css" />
+
+  <!-- Sección Experiencias -->
+  <link rel="stylesheet" href="css/experience.css" />
+
+
+</head>
+<body>
+  <!-- Capa superior con esquinas redondeadas (fondo blanco) -->
+  <div class="top-shell">
+    <header class="site-header">
+      <div class="container header-inner">
+        <!-- Logo -->
+        <a class="logo" href="/" aria-label="Inicio">&lt;SS/&gt;</a>
+
+        <!-- Navegación -->
+        <nav class="nav" aria-label="Navegación principal">
+          <ul class="nav__list">
+            <li><a href="#sobre-mi">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#testimonios">Testimonials</a></li>
+            <li><a href="#contacto">Contact</a></li>
+          </ul>
+
+          <!-- Divisor vertical -->
+          <span class="nav__divider" aria-hidden="true"></span>
+
+          <!-- Icono de tema (decorativo sin JS) -->
+          <button class="btn-icon" aria-label="Cambiar tema">☀️</button>
+
+          <!-- Botón CV -->
+          <a href="assets/CV_Angel.pdf" class="btn btn--primary" download>Download CV</a>
+        </nav>
+      </div>
+    </header>
+
+  <!-- BLOQUE DE PRESENTACIÓN (ahora dentro del top-shell) -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <!-- Texto -->
+      <div class="hero__texto">
+        <h1 class="hero__titulo">Hola, soy Ángel <span aria-hidden="true">👋</span></h1>
+
+        <p class="hero__parrafo">
+          Soy desarrollador full-stack (React.js &amp; Node.js) centrado en crear experiencias
+          digitales rápidas, accesibles y visualmente atractivas. Me apasiona construir productos
+          útiles y bien diseñados.
+        </p>
+
+        <!-- Badges -->
+        <ul class="hero__datos" aria-label="Datos">
+          <li class="dato">
+            <span class="dato__icono">📍</span>
+            Zaragoza, España
+          </li>
+          <li class="dato disponible">
+            <span class="punto"></span>
+            Disponible para nuevos proyectos
+          </li>
+        </ul>
+
+        <!-- Social -->
+        <div class="social">
+          <a aria-label="GitHub" href="https://github.com/">🐱</a>
+          <a aria-label="LinkedIn" href="https://www.linkedin.com/">in</a>
+          <a aria-label="Twitter" href="https://twitter.com/">X</a>
+        </div>
+      </div>
+
+      <!-- Foto -->
+      <div class="hero__foto">
+        <figure class="marco-foto">
+          <img src="Foto_CV.jpg" alt="Ángel Moliné Arruebo" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre-mi" class="sobre-mi">
+  <div class="container sobre-mi__inner">
+    <!-- Foto -->
+    <figure class="sobre-mi__media">
+      <img src="Foto_CV.jpg" alt="Ángel al aire libre" />
+    </figure>
+
+    <!-- Contenido -->
+    <div class="sobre-mi__content">
+      <span class="sobre-mi__eyebrow">Sobre mí</span>
+      <h2 class="sobre-mi__title">¿Tienes curiosidad sobre mí? Aquí lo tienes:</h2>
+
+      <p class="sobre-mi__lead">
+        Soy un apasionado desarrollador full-stack enfocado en crear experiencias
+        digitales rápidas, accesibles y visualmente atractivas. Me encanta convertir ideas
+        en productos útiles con código limpio y bien estructurado.
+      </p>
+
+      <p>
+        Empecé mi camino en el desarrollo en 2015 y desde entonces no he dejado de
+        aprender nuevas tecnologías y buenas prácticas. Disfruto pensando en el producto
+        de principio a fin —desde la idea hasta el despliegue—. Cuando no estoy
+        programando, comparto tips en X/Twitter o contribuyo en GitHub.
+      </p>
+
+      <ul class="sobre-mi__bullets">
+        <li>Grado en Ingeniería Informática</li>
+        <li>Aprendiz constante</li>
+        <li>Freelancer a tiempo completo</li>
+        <li>Apasionado por el indie hacking</li>
+      </ul>
+
+      <p class="sobre-mi__note">
+        Estoy disponible para proyectos freelance. ¡No dudes en contactarme! 😄
+      </p>
+    </div>
+  </div>
+  </section>
+
+  <!-- Sección de Habilidades -->
+
+  <section id="skills" class="skills">
+  <div class="container skills__inner">
+    <span class="skills__eyebrow">Skills</span>
+    <h2 class="skills__title">Tecnologías, herramientas y lenguajes con los que trabajo:</h2>
+
+    <ul class="skills__grid">
+
+      <li class="skill">
+        <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">
+          <img class="skill__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+          <p class="skill__name">HTML5</p>
+        </a>
+      </li>
+
+      <li class="skill">
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">
+          <img class="skill__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+          <p class="skill__name">JavaScript</p>
+        </a>
+      </li>
+
+      <li class="skill">
+        <a href="https://react.dev/" target="_blank">
+          <img class="skill__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+          <p class="skill__name">React.js</p>
+        </a>
+      </li>
+
+      <li class="skill">
+        <a href="https://nodejs.org/" target="_blank">
+          <img class="skill__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+          <p class="skill__name">Node.js</p>
+        </a>
+      </li>
+
+      <li class="skill">
+        <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview" target="_blank">
+          <img class="skill__img" src="https://www.activebs.com/Files/Filer/business_central/business-central-logos/business-central-logo-2.png" alt="Business Central" />
+          <p class="skill__name">Business Central (AL)</p>
+        </a>
+      </li>
+
+      <li class="skill">
+        <a href="https://www.python.org/" target="_blank">
+          <img class="skill__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+          <p class="skill__name">Python</p>
+        </a>
+      </li>
+
+      <li class="skill">
+        <a href="https://scikit-learn.org/stable/" target="_blank">
+          <img class="skill__img" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" />
+          <p class="skill__name">Scikit-learn</p>
+        </a>
+      </li>
+
+      <li class="skill">
+        <a href="https://isocpp.org/" target="_blank">
+          <img class="skill__img" src="https://isocpp.org/assets/images/cpp_logo.png" alt="Pentaho" />
+          <p class="skill__name">C / C++</p>
+        </a>
+      </li>
+
+      <li class="skill">
+        <a href="https://www.mysql.com/" target="_blank">
+          <img class="skill__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+          <p class="skill__name">MySQL</p>
+        </a>
+      </li>
+
+      <li class="skill">
+        <a href="https://www.postgresql.org/" target="_blank">
+          <img class="skill__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
+          <p class="skill__name">PostgreSQL</p>
+        </a>
+      </li>
+
+      <li class="skill">
+        <a href="https://www.mongodb.com/" target="_blank">
+          <img class="skill__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+          <p class="skill__name">MongoDB</p>
+        </a>
+      </li>
+
+      <li class="skill">
+        <a href="https://github.com/" target="_blank">
+          <img class="skill__img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+          <p class="skill__name">Git & GitHub</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Sección de Experiencia -->
+<section id="experience" class="experience">
+  <div class="container experience__inner">
+    <span class="experience__eyebrow">Experience</span>
+    <h2 class="experience__title">Aquí tienes un resumen rápido de mis experiencias más recientes:</h2>
+
+    <ul class="experience__list">
+      <!-- Item 1 -->
+      <li class="experience__item">
+        <img class="xp__logo" src="https://upload.wikimedia.org/wikipedia/commons/6/62/Upwork-logo.svg" alt="Upwork" />
+        <h3 class="xp__role">Full Stack Developer</h3>
+        <span class="xp__date">Dic 2023 – Presente</span>
+        <ul class="xp__bullets">
+          <li>Desarrollo de aplicaciones web modernas con React.js y Node.js.</li>
+          <li>Integración de bases de datos SQL y NoSQL.</li>
+          <li>Colaboración en proyectos freelance de diversa escala.</li>
+        </ul>
+      </li>
+
+      <!-- Item 2 -->
+      <li class="experience__item">
+        <img class="xp__logo" src="https://upload.wikimedia.org/wikipedia/commons/6/62/Upwork-logo.svg" alt="Upwork" />
+        <h3 class="xp__role">Team Lead</h3>
+        <span class="xp__date">2021 – 2023</span>
+        <ul class="xp__bullets">
+          <li>Gestión de equipo en proyectos de software.</li>
+          <li>Implementación de buenas prácticas en desarrollo ágil.</li>
+          <li>Revisión de código y mentoring a desarrolladores junior.</li>
+        </ul>
+      </li>
+
+      <!-- Item 3 -->
+      <li class="experience__item">
+        <img class="xp__logo" src="https://upload.wikimedia.org/wikipedia/commons/6/62/Upwork-logo.svg" alt="Upwork" />
+        <h3 class="xp__role">Freelancer en Proyectos Variados</h3>
+        <span class="xp__date">2017 – 2021</span>
+        <ul class="xp__bullets">
+          <li>Diseño y desarrollo de aplicaciones web personalizadas.</li>
+          <li>Optimización de rendimiento en proyectos existentes.</li>
+          <li>Colaboración con clientes internacionales.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+</body>
+</html>

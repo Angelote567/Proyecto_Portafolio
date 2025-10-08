@@ -1,0 +1,44 @@
+/* ===== Hero (texto + foto) ===== */
+.hero { 
+  padding: 48px 0 72px; 
+}
+
+.hero__inner{
+  display: flex;
+  align-items: center;            /* centra verticalmente */
+  justify-content: space-between; /* texto izq, foto der */
+  gap: 2rem;
+}
+
+.hero__texto{ flex: 1; }
+
+/* Redes sociales dentro del texto */
+.social{
+  display:flex;
+  justify-content:flex-start;   /* un poco más a la izquierda */
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;            /* ajusta a tu gusto */
+}
+
+/* Foto */
+.hero__foto{
+  flex-shrink: 0;               /* mantiene tamaño */
+  display:flex; justify-content:center;
+  margin-top: 2rem;
+}
+
+.marco-foto img{
+  width:180px; height:180px;
+  object-fit:cover;
+  border-radius:50%;
+  border:4px solid #4682b4;
+  box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
+
+/* (Opcional) móvil: apilar */
+@media (max-width: 768px){
+  .hero__inner{ flex-direction: column; text-align:center; }
+  .social{ justify-content:center; margin-left:0; }
+  .hero__foto{ margin-top: 16px; }
+}

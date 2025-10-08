@@ -1,0 +1,90 @@
+/* ===== Skills ===== */
+.skills {
+  background: #ffffff;
+  padding: 80px 0; /* más alto para dar aire */
+}
+
+.skills .container {
+  width: min(100% - 32px, 1280px); /* más ancho que el resto */
+  margin: 0 auto;
+}
+
+.skills__inner {
+  text-align: center;
+}
+
+.skills__eyebrow {
+  display: inline-block;
+  background: #eef2ff;
+  color: #3b4cca;
+  font-weight: 700;
+  font-size: .85rem;
+  padding: .35rem .7rem;
+  border-radius: 999px;
+  margin-bottom: 16px; /* un poco más que antes */
+}
+
+.skills__title {
+  font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+  color: var(--text);
+  margin: 0 0 36px; /* más espacio debajo del título */
+}
+
+/* grid responsivo */
+.skills__grid {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /* columnas más anchas */
+  gap: 34px 28px; /* más separación entre tarjetas */
+  max-width: 1100px; /* ensanchar límite de la grid */
+}
+
+/* tarjeta de cada skill */
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 14px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0,0,0,.06);
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.skill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0,0,0,.10);
+}
+
+/* icono como imagen */
+.skill__img {
+  width: 64px;   /* un poco más grande */
+  height: 64px;
+  object-fit: contain;
+  display: block;
+}
+
+.skill__name {
+  margin: 10px 0 0;
+  font-weight: 600;
+  color: var(--text);
+  font-size: .95rem;
+}
+
+/* móvil */
+@media (max-width: 640px) {
+  .skills { padding: 60px 0; }
+  .skills__title { margin-bottom: 28px; }
+  .skills__grid {
+    gap: 22px 18px;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+  .skill__img {
+    width: 44px;
+    height: 44px;
+  }
+}
