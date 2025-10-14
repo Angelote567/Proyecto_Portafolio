@@ -1,53 +1,51 @@
-/* ===== Variables & base ===== */
+/* Variables Principales */
 :root{
-  --bg: #edf0ff;
-  --shell: #ffffff;
-  --text: #0f172a;
-  --muted: #64748b;
-  --border: #e6e8ef;
-  --accent: #0b1220;
-  --radius-xl: 24px;
-  --container: 1120px;
+  --bg: #edf0ff;        /* color del fondo fondo */
+  --shell: #ffffff;     /* header blanco */
+  --text: #0f172a;      /* color base texto */
+  --muted: #64748b;     /* texto secundario (nav) */
+  --border: #e6e8ef;    /* líneas suaves (borde) */
+  --accent: #0b1220;    /* color del botón CV */
+  --container: 1120px;  /* ancho máximo de la maqueta */
 }
 
-*{ box-sizing: border-box; }
+*{ box-sizing: border-box; } 
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* desplazamiento suave */
 }
 
 body{
   margin: 0;
-  font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;
+  font-family: system-ui,Arial;
   color: var(--text);
-  background:
-    radial-gradient(1200px 600px at 50% -220px, var(--bg) 0, transparent 60%),
+    background:
+    radial-gradient(1200px 600px at 50% -220px, var(--bg) 0, transparent 60%),  /* Esquinas redondeadas */
     #f7f8ff;
 }
 
-/* ===== Caparazón superior ===== */
+/*  Parte superior */
 .top-shell{
   background: var(--shell);
   border-bottom: 1px solid var(--border);
-  border-radius: 28px 28px 0 0;
-  margin: 16px 16px 0;
+  border-radius: 28px 28px 0 0; /* esquinas redondeadas arriba */
+  margin: 16px 16px 0; /* margen superior y lateral */
 }
 
-/* ===== Layout general ===== */
-.container{ width: min(100% - 32px, var(--container)); margin: 0 auto; }
-.site-header{ background: transparent; }
+/* Layout general */
+.container{ width: var(--container); margin: 0 auto; }
 .header-inner{
-  display:flex; align-items:center; justify-content:space-between;
+  display:flex; align-items:center; justify-content:space-between; /* logo izq, nav der, etc */
   padding: 18px 0;
 }
 
-/* ===== Logo ===== */
+/* <SS/> */
 .logo{
   font-weight: 800; letter-spacing:.4px; text-decoration:none;
   color: var(--text); font-size: 1.15rem;
 }
 
-/* ===== Navegación ===== */
+/* Navegación */
 .nav{ display:flex; align-items:center; gap:16px; }
 .nav__list{ list-style:none; display:flex; gap:28px; margin:0; padding:0; }
 .nav__list a{
@@ -55,21 +53,13 @@ body{
 }
 .nav__list a:hover{ color: var(--text); }
 
+/* Divisor vertical */
 .nav__divider{
   width:1px; height:22px; background: var(--border); display:inline-block;
   margin: 0 12px 0 8px;
 }
 
-/* ===== Botones ===== */
-.btn-icon{
-  background:#fff; border:1px solid var(--border);
-  width:36px; height:36px; border-radius:10px; cursor:pointer;
-  display:grid; place-items:center; font-size:1rem; color:#1f2937;
-  transition: box-shadow .15s, transform .05s;
-}
-.btn-icon:hover{ box-shadow: 0 6px 16px rgba(0,0,0,.08); }
-.btn-icon:active{ transform: translateY(1px); }
-
+/* Botón CV */
 .btn{ text-decoration:none; padding:10px 16px; border-radius:999px;
   font-weight:700; display:inline-block; transition: filter .15s; }
 .btn--primary{ background: var(--accent); color:#fff; }

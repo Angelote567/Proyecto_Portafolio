@@ -1,6 +1,4 @@
-/* =======================
-   Sección: Experience
-   ======================= */
+/* Sección de Experiencias */
 
 .experience{
   background:#f9fafc;           /* fondo gris muy claro */
@@ -10,20 +8,22 @@
 .experience__inner{ text-align:center; }
 
 .experience__eyebrow{
-  display:inline-block;
-  background:#eef2ff;
-  color:#3b4cca;
-  font-weight:700;
-  font-size:.85rem;
-  padding:.35rem .7rem;
-  border-radius:999px;
-  margin-bottom:12px;
+  display: inline-block;
+  background: #eef2ff;
+  color: #3b4cca;
+  font-weight: 700;
+  font-size: .85rem;
+  padding: .3rem .6rem;
+  border-radius: 999px;
+  margin-bottom: 16px;
 }
 
 .experience__title{
-  font-size:clamp(1.3rem, 2.3vw, 1.7rem);
-  color:var(--text, #0f172a);
-  margin:0 0 36px;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #0f172a;
+  margin: 8px 0 36px;
 }
 
 /* Lista y tarjetas */
@@ -37,19 +37,13 @@
   gap:24px;
 }
 
-/* ===== Tarjeta de experiencia =====
-   Grid de 3 columnas: 72px | 1fr | auto
-   - Col 1: logo
-   - Col 2: rol + bullets
-   - Col 3: fecha
-*/
+/* 3 columnas: logo | contenido | fecha */
 .experience__item{
   background:#fff;
   border:1px solid var(--border, #e6e8ef);
   border-radius:16px;
   box-shadow:0 6px 16px rgba(0,0,0,.06);
   padding:20px 24px;
-
   display:grid;
   grid-template-columns:72px 1fr max-content;
   column-gap:16px;
@@ -98,24 +92,3 @@
   line-height:1.5;
 }
 .xp__bullets li{ margin-bottom:6px; }
-
-/* ===== Responsive ===== */
-@media (max-width: 720px){
-  .experience__item{
-    grid-template-columns:52px 1fr; /* fecha baja a otra fila */
-    padding:16px 18px;
-  }
-  .xp__logo{ width:48px; height:48px; }
-
-  /* Fecha debajo del rol */
-  .xp__date{
-    grid-column:2; grid-row:2;
-    justify-self:start;
-    margin-top:2px;
-  }
-
-  /* Bullets pasan a la fila siguiente */
-  .xp__bullets{
-    grid-column:2; grid-row:3;
-  }
-}

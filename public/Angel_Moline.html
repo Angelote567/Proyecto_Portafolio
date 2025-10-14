@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portafolio Ángel Moline</title>
+  <title>Portfolio Ángel Moline</title>
+  
   <!-- Estilos globales -->
   <link rel="stylesheet" href="css/styless.css" />
 
@@ -19,6 +20,14 @@
   <!-- Sección Experiencias -->
   <link rel="stylesheet" href="css/experience.css" />
 
+  <!-- Sección Projectos -->
+  <link rel="stylesheet" href="css/work.css" />
+
+  <!-- Sección Testimonios -->
+  <link rel="stylesheet" href="css/testimonials.css" />
+
+  <!-- Sección Contactar -->
+  <link rel="stylesheet" href="css/contact.css" />
 
 </head>
 <body>
@@ -32,111 +41,109 @@
         <!-- Navegación -->
         <nav class="nav" aria-label="Navegación principal">
           <ul class="nav__list">
-            <li><a href="#sobre-mi">About me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#testimonios">Testimonials</a></li>
-            <li><a href="#contacto">Contact</a></li>
+            <li><a href="#sobre-mi">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
 
           <!-- Divisor vertical -->
           <span class="nav__divider" aria-hidden="true"></span>
 
-          <!-- Icono de tema (decorativo sin JS) -->
-          <button class="btn-icon" aria-label="Cambiar tema">☀️</button>
+          <!-- Icono de tema -->
+          <button aria-label="Cambiar tema">☀️</button>
 
           <!-- Botón CV -->
-          <a href="assets/CV_Angel.pdf" class="btn btn--primary" download>Download CV</a>
+          <a href="CV_AngelMolineDeutsch.pdf" class="btn btn--primary" download>Download CV</a>
         </nav>
       </div>
     </header>
 
-  <!-- BLOQUE DE PRESENTACIÓN (ahora dentro del top-shell) -->
+  <!-- Bloque de Presentación -->
   <section class="hero">
     <div class="container hero__inner">
       <!-- Texto -->
       <div class="hero__texto">
-        <h1 class="hero__titulo">Hola, soy Ángel <span aria-hidden="true">👋</span></h1>
+        <h1 class="hero__titulo">Hi, I´m Angel <span aria-hidden="true">👋</span></h1>
 
         <p class="hero__parrafo">
-          Soy desarrollador full-stack (React.js &amp; Node.js) centrado en crear experiencias
-          digitales rápidas, accesibles y visualmente atractivas. Me apasiona construir productos
-          útiles y bien diseñados.
+          I am a <strong>Computer Engineer</strong> specialized in web systems development, Business Central, and Machine Learning projects.  
+          I enjoy turning ideas into useful and accessible digital solutions, always with a practical and detail-oriented approach.  
+          I have worked on projects that combine <strong>full-stack development</strong> with <strong>data analysis</strong>, and I am currently <strong>seeking new opportunities</strong> to continue growing and adding value.
         </p>
 
         <!-- Badges -->
         <ul class="hero__datos" aria-label="Datos">
           <li class="dato">
             <span class="dato__icono">📍</span>
-            Zaragoza, España
+            Zaragoza, Spain
           </li>
           <li class="dato disponible">
             <span class="punto"></span>
-            Disponible para nuevos proyectos
+            Available for new projects and collaborations.
           </li>
         </ul>
 
         <!-- Social -->
         <div class="social">
-          <a aria-label="GitHub" href="https://github.com/">🐱</a>
-          <a aria-label="LinkedIn" href="https://www.linkedin.com/">in</a>
-          <a aria-label="Twitter" href="https://twitter.com/">X</a>
+            <a aria-label="GitHub" href="https://github.com/">🐱</a>
+            <a aria-label="LinkedIn" href="https://www.linkedin.com/">in</a>
+            <a aria-label="Twitter" href="https://twitter.com/">X</a>
         </div>
       </div>
 
       <!-- Foto -->
       <div class="hero__foto">
         <figure class="marco-foto">
-          <img src="Foto_CV.jpg" alt="Ángel Moliné Arruebo" />
+          <img src="Fotos/Foto_Angel.jpg" alt="Ángel Moliné Arruebo" />
         </figure>
       </div>
     </div>
   </section>
 
+  <!--Sección Sobre mí--> 
   <section id="sobre-mi" class="sobre-mi">
   <div class="container sobre-mi__inner">
     <!-- Foto -->
     <figure class="sobre-mi__media">
-      <img src="Foto_CV.jpg" alt="Ángel al aire libre" />
+      <img src="Fotos/Foto_Angel.jpg" alt="Ángel al aire libre" />
     </figure>
 
     <!-- Contenido -->
     <div class="sobre-mi__content">
-      <span class="sobre-mi__eyebrow">Sobre mí</span>
-      <h2 class="sobre-mi__title">¿Tienes curiosidad sobre mí? Aquí lo tienes:</h2>
+      <span class="sobre-mi__eyebrow">About me</span>
+      <h2 class="sobre-mi__title">Curious about me? Here you go:</h2>
 
       <p class="sobre-mi__lead">
-        Soy un apasionado desarrollador full-stack enfocado en crear experiencias
-        digitales rápidas, accesibles y visualmente atractivas. Me encanta convertir ideas
-        en productos útiles con código limpio y bien estructurado.
+        I’m a passionate full-stack developer focused on creating fast, accessible, and visually appealing digital experiences. 
+        I love turning ideas into useful products with clean and well-structured code.
       </p>
 
       <p>
-        Empecé mi camino en el desarrollo en 2015 y desde entonces no he dejado de
-        aprender nuevas tecnologías y buenas prácticas. Disfruto pensando en el producto
-        de principio a fin —desde la idea hasta el despliegue—. Cuando no estoy
-        programando, comparto tips en X/Twitter o contribuyo en GitHub.
+        I started my journey in development in 2020 during the pandemic, and since then I haven’t stopped learning new technologies and best practices. 
+        I enjoy thinking about the product from start to finish —from the idea to deployment. 
+        When I’m not coding, I share tips on X/Twitter or contribute on GitHub.
       </p>
 
       <ul class="sobre-mi__bullets">
-        <li>Grado en Ingeniería Informática</li>
-        <li>Aprendiz constante</li>
-        <li>Freelancer a tiempo completo</li>
-        <li>Apasionado por el indie hacking</li>
+        <li>Degree in Computer Engineering</li>
+        <li>Constant learner</li>
+        <li>Full-time freelancer</li>
+        <li>Passionate about indie hacking</li>
       </ul>
 
       <p class="sobre-mi__note">
-        Estoy disponible para proyectos freelance. ¡No dudes en contactarme! 😄
+        I am available for freelance projects. Feel free to reach out! 😄
       </p>
     </div>
   </div>
   </section>
 
   <!-- Sección de Habilidades -->
-
   <section id="skills" class="skills">
   <div class="container skills__inner">
     <span class="skills__eyebrow">Skills</span>
-    <h2 class="skills__title">Tecnologías, herramientas y lenguajes con los que trabajo:</h2>
+    <h2 class="skills__title">Technologies, tools, and languages I work with:</h2>
 
     <ul class="skills__grid">
 
@@ -231,48 +238,186 @@
 <section id="experience" class="experience">
   <div class="container experience__inner">
     <span class="experience__eyebrow">Experience</span>
-    <h2 class="experience__title">Aquí tienes un resumen rápido de mis experiencias más recientes:</h2>
+    <h2 class="experience__title">Here’s a quick overview of my most recent experiences:</h2>
 
     <ul class="experience__list">
       <!-- Item 1 -->
       <li class="experience__item">
-        <img class="xp__logo" src="https://upload.wikimedia.org/wikipedia/commons/6/62/Upwork-logo.svg" alt="Upwork" />
-        <h3 class="xp__role">Full Stack Developer</h3>
-        <span class="xp__date">Dic 2023 – Presente</span>
+        <img class="xp__logo" src="https://davisa.es/wp-content/uploads/2023/09/logo_davisa_sinfondo-1024x155.png" alt="Davisa" />
+        <h3 class="xp__role">Business Central Developer - Davisa Informática</h3>
+        <span class="xp__date">2023 – Present</span>
         <ul class="xp__bullets">
-          <li>Desarrollo de aplicaciones web modernas con React.js y Node.js.</li>
-          <li>Integración de bases de datos SQL y NoSQL.</li>
-          <li>Colaboración en proyectos freelance de diversa escala.</li>
+          <li>Development and customization of AL extensions to optimize internal processes.</li>
+          <li>Creation of pages, reports, and automations tailored to the company’s needs.</li>
+          <li>Integration of the ERP with external systems, improving data management and efficiency.</li>
+          <li>Troubleshooting technical issues and providing support to end users.</li>
         </ul>
       </li>
 
       <!-- Item 2 -->
       <li class="experience__item">
-        <img class="xp__logo" src="https://upload.wikimedia.org/wikipedia/commons/6/62/Upwork-logo.svg" alt="Upwork" />
-        <h3 class="xp__role">Team Lead</h3>
+        <img class="xp__logo" src="https://davisa.es/wp-content/uploads/2023/09/logo_davisa_sinfondo-1024x155.png" alt="Davisa" />
+        <h3 class="xp__role">Power BI Developer - Davisa Informática</h3>
         <span class="xp__date">2021 – 2023</span>
         <ul class="xp__bullets">
-          <li>Gestión de equipo en proyectos de software.</li>
-          <li>Implementación de buenas prácticas en desarrollo ágil.</li>
-          <li>Revisión de código y mentoring a desarrolladores junior.</li>
+          <li>Creation of interactive dashboards for different departments.</li>
+          <li>Integration of Business Central and other data sources with Power BI.</li>
+          <li>Automation of reports and visualizations to support decision-making.</li>
         </ul>
       </li>
 
       <!-- Item 3 -->
       <li class="experience__item">
-        <img class="xp__logo" src="https://upload.wikimedia.org/wikipedia/commons/6/62/Upwork-logo.svg" alt="Upwork" />
-        <h3 class="xp__role">Freelancer en Proyectos Variados</h3>
-        <span class="xp__date">2017 – 2021</span>
+        <img class="xp__logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Machine Learning" />
+        <h3 class="xp__role">Machine Learning / Data Science</h3>
+        <span class="xp__date">2020 – 2021</span>
         <ul class="xp__bullets">
-          <li>Diseño y desarrollo de aplicaciones web personalizadas.</li>
-          <li>Optimización de rendimiento en proyectos existentes.</li>
-          <li>Colaboración con clientes internacionales.</li>
+          <li>Development of predictive models using Python and Scikit-learn.</li>
+          <li>Data cleaning, preparation, and analysis.</li>
+          <li>Visualization of results and presentation of performance metrics.</li>
         </ul>
       </li>
     </ul>
   </div>
 </section>
 
+<!-- Sección de Proyectos -->
+<section id="projects" class="projects">
+  <div class="container projects__inner">
+    <span class="projects__eyebrow">Work</span>
+    <h2 class="projects__title">Some of the most outstanding projects I have built:</h2>
+
+    <div class="project">
+      <!-- Imagen del proyecto -->
+      <div class="project__img">
+        <img src="Fotos/Foto_Dvive.jpg" alt="Dvive" />
+      </div>
+
+      <!-- Contenido del proyecto 1 -->
+      <div class="project__content">
+        <h3 class="project__name">Dvive – Real Estate Incident Management App</h3>
+        <p class="project__desc">
+          Dvive is a mobile application that allows real estate clients to easily report issues or incidents after purchasing a property. 
+        </p>
+        <p class="project__desc">
+          The system helps real estate companies efficiently track, manage, and resolve these incidents in a practical and structured way.
+        </p>
+        <p class="project__desc">
+          I contributed to the design and implementation of the application, with a focus on usability and user experience.
+        </p>  
+        <p class="project__desc">
+          The project streamlined communication between clients and the company, reducing resolution times and improving overall efficiency.
+        </p>
+
+        <!-- Tags -->
+        <ul class="project__tags">
+          <li>React</li>
+          <li>Node.js</li>
+          <li>SQL Database</li>
+          <li>API integrations</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Contenido del proyecto 2 -->
+    <div class="project project--reverse">
+      <div class="project__content">
+        <h3 class="project__name">Portfolio Website</h3>
+        <p class="project__desc">
+          This portfolio website was designed and developed to showcase my skills, 
+          projects, and professional experience in a clear and modern way. 
+          It focuses on simplicity, accessibility, and a clean structure to create 
+          an intuitive user experience.
+        </p>
+        <p class="project__desc">
+          I also placed a strong emphasis on modular code and reusable components, 
+          making it easy to extend with new sections and features in the future
+        </p>
+
+        <!-- Tags -->
+        <ul class="project__tags">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      <div class="project__img">
+        <img src="Fotos/Foto_Portfolio.jpg" alt="Portfolio Website" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Testimonios -->
+<section id="testimonials" class="testimonials">
+  <div class="container testimonials__inner">
+    <span class="testimonials__eyebrow">Testimonials</span>
+    <h2 class="testimonials__title">Nice things people have said about me:</h2>
+
+    <div class="testimonials__grid">
+
+      <!-- Testimonial 1 -->
+      <div class="testimonial">
+        <p class="testimonial__text">
+          "Angel is a highly skilled developer with a strong command of modern web technologies. 
+          His ability to design and implement efficient solutions made a real impact on our projects."
+        </p>
+        <h4 class="testimonial__name">Michael Carter</h4>
+        <span class="testimonial__role">Project Manager – Tech Solutions</span>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial">
+        <p class="testimonial__text">
+          "What stood out the most about Angel is his positive attitude and collaborative mindset. 
+          He always brought energy to the team and helped us achieve great results together."
+        </p>
+        <h4 class="testimonial__name">Sofia Ramirez</h4>
+        <span class="testimonial__role">Team Lead – Davisa Informática</span>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial">
+        <p class="testimonial__text">
+          "Angel’s problem-solving skills are exceptional. He consistently delivered creative solutions 
+          to complex challenges while keeping projects on track and well-documented."
+        </p>
+        <h4 class="testimonial__name">Daniel Thompson</h4>
+        <span class="testimonial__role">CTO – Innovatech</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección Contacto -->
+<section id="contact" class="contact">
+  <div class="container contact__inner">
+    <span class="contact__eyebrow">Get in touch</span>
+
+    <p class="contact__lead">
+      What's next? Feel free to reach out if you're looking for a developer,
+      have a question, or simply want to connect.
+    </p>
+
+    <div class="contact__channels">
+      <div class="contact__item">
+        <span class="contact__icon" aria-hidden="true">✉️</span>
+        <span class="contact__text">molineangel67@gmail.com</span>
+      </div>
+
+      <div class="contact__item">
+        <span class="contact__icon" aria-hidden="true">📞</span>
+        <span class="contact__text">+34 666 455 691</span>
+      </div>
+    </div>
+
+    <div class="contact__social">
+      <a aria-label="GitHub" href="https://github.com/">🐱</a>
+      <a aria-label="LinkedIn" href="https://www.linkedin.com/">in</a>
+      <a aria-label="Twitter" href="https://twitter.com/">X</a>
+    </div>
+  </div>
+</section>
 
 </body>
 </html>
