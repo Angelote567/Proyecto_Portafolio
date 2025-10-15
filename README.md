@@ -38,4 +38,4 @@ Thank you for visiting my Portfolio.
 
 Enlace GitHub: https://github.com/Angelote567/Proyecto_Portafolio
 
-Las diferentes capturas del resultado del portfolio las podemos ver en la carpeta "Imagenes_Portfolio"
+The different screenshots of the portfolio result can be found in the folder: "Imagenes_Portfolio"
