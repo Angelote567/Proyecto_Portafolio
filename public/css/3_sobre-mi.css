@@ -70,3 +70,22 @@
   font-style: italic;
   color: #555;
 }
+@media (max-width: 768px) {
+  .sobre-mi__inner { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 16px; 
+  }
+  .sobre-mi__media { 
+    order: -1;       
+    display: flex; 
+    justify-content: center; 
+  }
+  .sobre-mi__media img { 
+    max-width: 100%; 
+    height: auto; 
+  }
+  .sobre-mi__content { 
+    text-align: left;
+  }
+}

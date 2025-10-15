@@ -169,16 +169,4 @@ body {
   .hero__foto {
     margin-top: 20px;
   }
-
-  .skills__grid {
-    grid-template-columns: 1fr 1fr; /* dos columnas en móvil */
-    gap: 12px;
-  }
-
-  .experience__list,
-  .projects__inner,
-  .testimonials__grid,
-  .contact__inner {
-    flex-direction: column;
-  }
 }
