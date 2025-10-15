@@ -69,8 +69,7 @@ body{
 .closing {
   background: #f3f4f6;             /* gris clarito */
   border-bottom-left-radius: 28px;   /* esquina curva izquierda */
-  border-bottom-right-radius: 28px;  /* esquina curva derecha */
-  margin: 0 16px 0;               /* mismo margen que top-shell */
+  border-bottom-right-radius: 28px;  /* esquina curva derecha */               /* mismo margen que top-shell */
   padding: 20px;                   /* espacio interno */
   text-align: center;
 }
