@@ -28,7 +28,7 @@ Por último mencionar, que los siguientes archivos estan siendo utilizados para 
 3. ".firebase"
 4. "404.html"
 
-Esta es la url para poder ver el portfolio publicado: 
+Esta es la url para poder ver el portfolio publicado: https://fgdsfgsasdfsdgewtrsdfdsfsdsda.web.app
 
 Cualquier duda, se me puede consultar a este correo: molineangel67@gmail.com
 
