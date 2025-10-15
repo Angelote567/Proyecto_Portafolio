@@ -47,8 +47,10 @@ body {
 
 /* Layout general */
 .container {
-  width: var(--container);
+  width: 100%;
+  max-width: var(--container);
   margin: 0 auto;
+  padding: 0 16px; /* margen lateral en móvil */
 }
 
 .header-inner {
@@ -140,4 +142,43 @@ body {
   font-size: 0.9rem;
   color: #6b7280;
   /* Color del texto */
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero__foto {
+    margin-top: 20px;
+  }
+
+  .skills__grid {
+    grid-template-columns: 1fr 1fr; /* dos columnas en móvil */
+    gap: 12px;
+  }
+
+  .experience__list,
+  .projects__inner,
+  .testimonials__grid,
+  .contact__inner {
+    flex-direction: column;
+  }
 }

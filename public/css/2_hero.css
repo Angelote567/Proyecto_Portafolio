@@ -44,3 +44,57 @@
   object-fit: cover;
   border: 8px solid rgba(0, 0, 0, .06);
 }
+
+@media (max-width: 768px) {
+  /* HERO */
+  .hero__inner { 
+    display: flex; 
+    flex-direction: column; 
+    text-align: center; 
+  }
+  .hero__foto { 
+    order: -1;         
+    margin-top: 0; 
+    margin-bottom: 16px; 
+  }
+  .social { 
+    justify-content: center; 
+    margin-left: 0; 
+  }
+
+  /* SOBRE MÍ */
+  .sobre-mi__inner { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 16px; 
+  }
+  .sobre-mi__media { 
+    order: -1;       
+    display: flex; 
+    justify-content: center; 
+  }
+  .sobre-mi__media img { 
+    max-width: 100%; 
+    height: auto; 
+  }
+  .sobre-mi__content { 
+    text-align: left;
+  }
+
+  /* WORK / PROJECTS */
+  .projects .project,
+  .projects .project.project--reverse {
+    display: flex;
+    flex-direction: column;  
+    gap: 16px;
+  }
+  .projects .project__img {
+    order: -1;              
+    display: flex;
+    justify-content: center;
+  }
+  .projects .project__img img {
+    max-width: 100%;
+    height: auto;
+  }
+}

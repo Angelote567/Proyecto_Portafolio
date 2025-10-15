@@ -59,7 +59,6 @@
   border: 1px solid var(--border);
   border-radius: 14px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, .06);
-  /* sombra sutil */
   transition: transform .12s ease, box-shadow .12s ease;
   /* animación suave al hacer mover */
 }
