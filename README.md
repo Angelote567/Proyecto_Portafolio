@@ -1,4 +1,4 @@
-*** Portfolio Angel Moline ***
+**Portfolio Angel Moline**
 
 In this project, I worked on creating a website in which I had to develop a portfolio with curricular information.
 
