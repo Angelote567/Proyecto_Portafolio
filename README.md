@@ -28,7 +28,7 @@ Finally, the following files are being used to publish the website through Fireb
 3. ".firebase"
 4. "404.html"
 
-Here is the URL to view the published portfolio: https://fgdsfgsasdfsdgewtrsdfdsfsdsda.web.app
+Here is the URL to view the published portfolio: [Public Portfolio](https://fgdsfgsasdfsdgewtrsdfdsfsdsda.web.app)
 
 For any questions, feel free to contact me at this email: molineangel67@gmail.com
 
@@ -36,6 +36,15 @@ Thank you for visiting my Portfolio.
 
 Ángel Moliné Arruebo.
 
-Enlace GitHub: https://github.com/Angelote567/Proyecto_Portafolio
+Enlace GitHub: [Public repository on GitHub](https://github.com/Angelote567/Proyecto_Portafolio)
 
 The different screenshots of the portfolio result can be found in the folder: "Imagenes_Portfolio"
+
+![1_Imagen](public/Imagenes_Portfolio/1_Imagen.png)
+![2_Imagen](public/Imagenes_Portfolio/2_Imagen.png)
+![3_Imagen](public/Imagenes_Portfolio/3_Imagen.png)
+![4_Imagen](public/Imagenes_Portfolio/4_Imagen.png)
+![5_Imagen](public/Imagenes_Portfolio/5_Imagen.png)
+![6_Imagen](public/Imagenes_Portfolio/6_Imagen.png)
+![7_Imagen](public/Imagenes_Portfolio/7_Imagen.png)
+![8_Imagen](public/Imagenes_Portfolio/8_Imagen.png)
