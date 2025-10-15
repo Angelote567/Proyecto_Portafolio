@@ -1,81 +1,143 @@
 /* Variables Principales */
-:root{
-  --bg: #edf0ff;        /* color del fondo fondo */
-  --shell: #ffffff;     /* header blanco */
-  --text: #0f172a;      /* color base texto */
-  --muted: #64748b;     /* texto secundario (nav) */
-  --border: #e6e8ef;    /* líneas suaves (borde) */
-  --accent: #0b1220;    /* color del botón CV */
-  --container: 1120px;  /* ancho máximo de la maqueta */
+:root {
+  --bg: #edf0ff;
+  /* color del fondo fondo */
+  --shell: #ffffff;
+  /* header blanco */
+  --text: #0f172a;
+  /* color base texto */
+  --muted: #64748b;
+  /* texto secundario (nav) */
+  --border: #e6e8ef;
+  /* líneas suaves (borde) */
+  --accent: #0b1220;
+  /* color del botón CV */
+  --container: 1120px;
+  /* ancho máximo de la maqueta */
 }
 
-*{ box-sizing: border-box; } 
+* {
+  box-sizing: border-box;
+}
 
 html {
-  scroll-behavior: smooth; /* desplazamiento suave */
+  scroll-behavior: smooth;
+  /* desplazamiento suave */
 }
 
-body{
+body {
   margin: 0;
-  font-family: system-ui,Arial;
+  font-family: system-ui, Arial;
   color: var(--text);
-    background:
-    radial-gradient(1200px 600px at 50% -220px, var(--bg) 0, transparent 60%),  /* Esquinas redondeadas */
+  background:
+    radial-gradient(1200px 600px at 50% -220px, var(--bg) 0, transparent 60%),
+    /* Esquinas redondeadas */
     #f7f8ff;
 }
 
 /*  Parte superior */
-.top-shell{
+.top-shell {
   background: var(--shell);
   border-bottom: 1px solid var(--border);
-  border-radius: 28px 28px 0 0; /* esquinas redondeadas arriba */
-  margin: 16px 16px 0; /* margen superior y lateral */
+  border-radius: 28px 28px 0 0;
+  /* esquinas redondeadas arriba */
+  margin: 16px 16px 0;
+  /* margen superior y lateral */
 }
 
 /* Layout general */
-.container{ width: var(--container); margin: 0 auto; }
-.header-inner{
-  display:flex; align-items:center; justify-content:space-between; /* logo izq, nav der, etc */
+.container {
+  width: var(--container);
+  margin: 0 auto;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 18px 0;
 }
 
 /* <SS/> */
-.logo{
-  font-weight: 800; letter-spacing:.4px; text-decoration:none;
-  color: var(--text); font-size: 1.15rem;
+.logo {
+  font-weight: 800;
+  letter-spacing: .4px;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 1.15rem;
 }
 
 /* Navegación */
-.nav{ display:flex; align-items:center; gap:16px; }
-.nav__list{ list-style:none; display:flex; gap:28px; margin:0; padding:0; }
-.nav__list a{
-  text-decoration:none; color: var(--muted); font-weight:600; transition: color .15s;
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
-.nav__list a:hover{ color: var(--text); }
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__list a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 600;
+  transition: color .15s;
+}
+
+.nav__list a:hover {
+  color: var(--text);
+}
 
 /* Divisor vertical */
-.nav__divider{
-  width:1px; height:22px; background: var(--border); display:inline-block;
+.nav__divider {
+  width: 1px;
+  height: 22px;
+  background: var(--border);
+  display: inline-block;
   margin: 0 12px 0 8px;
 }
 
 /* Botón CV */
-.btn{ text-decoration:none; padding:10px 16px; border-radius:999px;
-  font-weight:700; display:inline-block; transition: filter .15s; }
-.btn--primary{ background: var(--accent); color:#fff; }
-.btn--primary:hover{ filter: brightness(1.07); }
+.btn {
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+  display: inline-block;
+  transition: filter .15s;
+}
+
+.btn--primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btn--primary:hover {
+  filter: brightness(1.07);
+}
 
 /* Bloque de cierre */
 .closing {
-  background: #f3f4f6;             /* gris clarito */
-  border-bottom-left-radius: 28px;   /* esquina curva izquierda */
-  border-bottom-right-radius: 28px;  /* esquina curva derecha */               /* mismo margen que top-shell */
-  padding: 20px;                   /* espacio interno */
+  background: #f3f4f6;
+  /* gris clarito */
+  border-bottom-left-radius: 28px;
+  /* esquina curva izquierda */
+  border-bottom-right-radius: 28px;
+  /* esquina curva derecha */
+  /* mismo margen que top-shell */
+  padding: 20px;
+  /* espacio interno */
   text-align: center;
 }
 
 .closing__inner p {
   margin: 0;
   font-size: 0.9rem;
-  color: #6b7280;  /* Color del texto */
+  color: #6b7280;
+  /* Color del texto */
 }

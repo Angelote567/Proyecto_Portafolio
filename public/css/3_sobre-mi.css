@@ -1,21 +1,29 @@
 /* Sección Sobre Mí */
 .sobre-mi {
-  background: #f5f5f5;        /* fondo gris claro */
-  padding: 4rem 0;            /* espacio arriba y abajo */
+  background: #f5f5f5;
+  /* fondo gris claro */
+  padding: 4rem 0;
 }
 
-.sobre-mi__inner{
-  display:flex;
-  align-items:flex-start;
-  gap:32px;              /* separación entre foto y texto */
+.sobre-mi__inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  /* separación entre foto y texto */
 }
 
-.sobre-mi__media{ flex:0 0 auto; }
+.sobre-mi__media {
+  flex: 0 0 auto;
+}
+
 .sobre-mi__media img {
-  width: 220px;                /* tamaño reducido de la foto */
+  width: 220px;
+  /* tamaño reducido de la foto */
   height: auto;
-  border-radius: 12px;         /* esquinas suavemente redondeadas */
-  box-shadow: 0 6px 18px rgba(0,0,0,0.15); /* sombra elegante */
+  border-radius: 12px;
+  /* esquinas redondeadas */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  /* sombra elegante */
 }
 
 .sobre-mi__content {

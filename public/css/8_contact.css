@@ -1,16 +1,16 @@
 /* Sección de Contacto */
-.contact{
-  background:#ffffff;
+.contact {
+  background: #ffffff;
   padding: 72px 0 96px;
 }
 
-.contact__inner{
+.contact__inner {
   width: min(900px, 100% - 32px);
   margin: 0 auto;
   text-align: center;
 }
 
-.contact__eyebrow{
+.contact__eyebrow {
   display: inline-block;
   background: #eef2ff;
   color: #3b4cca;
@@ -21,69 +21,70 @@
   margin-bottom: 16px;
 }
 
-.contact__lead{
-  color:#6b7280;                    /* gris suave */
+.contact__lead {
+  color: #6b7280;
+  /* gris suave */
   font-size: clamp(.95rem, 1.6vw, 1.05rem);
-  line-height:1.7;
+  line-height: 1.7;
   margin: 0 auto 24px;
   max-width: 700px;
 }
 
 /* email / phone */
-.contact__channels{
-  display:flex;
+.contact__channels {
+  display: flex;
   flex-direction: column;
   gap: 12px;
-  align-items:center;
+  align-items: center;
   margin: 6px 0 18px;
 }
 
-.contact__item{
-  display:flex;
-  align-items:center;
-  gap:12px;
+.contact__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   font-weight: 700;
   font-size: clamp(1rem, 2vw, 1.05rem);
   color: var(--text, #0f172a);
-  padding:10px 14px;
-  border-radius:12px;
+  padding: 10px 14px;
+  border-radius: 12px;
   transition: background .15s ease, transform .15s ease;
 }
 
-.contact__item:hover{
-  background:#f3f4ff;
+.contact__item:hover {
+  background: #f3f4ff;
   transform: translateY(-1px);
   cursor: default;
 }
 
-.contact__icon{
+.contact__icon {
   font-size: 1.1rem;
 }
 
-.contact__text{
-  letter-spacing:.2px;
+.contact__text {
+  letter-spacing: .2px;
 }
 
 /* social */
-.contact__social{
-  display:flex;
-  gap:16px;
-  justify-content:center;
+.contact__social {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
   margin-top: 8px;
 }
 
-.contact__social a{
-  font-size:.95rem;
-  color:#3b4cca;
-  background:#eef2ff;
-  padding:6px 12px;
-  border-radius:999px;
-  text-decoration:none;
-  font-weight:600;
+.contact__social a {
+  font-size: .95rem;
+  color: #3b4cca;
+  background: #eef2ff;
+  padding: 6px 12px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
   transition: background .15s ease, transform .15s ease;
 }
 
-.contact__social a:hover{
-  background:#e0e7ff;
+.contact__social a:hover {
+  background: #e0e7ff;
   transform: translateY(-1px);
 }

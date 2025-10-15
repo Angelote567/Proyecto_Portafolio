@@ -1,36 +1,46 @@
 /* Hero (Introducción) */
-.hero { 
-  padding: 48px 0 72px; 
+.hero {
+  padding: 48px 0 72px;
 }
 
-.hero__inner{
+.hero__inner {
   display: flex;
-  align-items: center;            /* centra verticalmente texto y foto */
-  justify-content: space-between; /* texto izq, foto der */
+  align-items: center;
+  /* centra verticalmente texto y foto */
+  justify-content: space-between;
+  /* texto izq, foto der */
   gap: 2rem;
 }
 
-.hero__texto{ flex: 1; } /* ocupa todo el espacio posible */
+.hero__texto {
+  flex: 1;
+}
+
+/* ocupa todo el espacio posible */
 
 /* Redes sociales dentro del texto */
-.social{
-  display:flex;
-  justify-content:flex-start;   /* un poco más a la izquierda */
+.social {
+  display: flex;
+  justify-content: flex-start;
+  /* un poco más a la izquierda */
   gap: 1rem;
   margin-top: 1rem;
   margin-left: 1rem;
 }
 
 /* Foto */
-.hero__foto{
-  flex-shrink: 0;               /* mantiene tamaño */
-  display:flex; justify-content:center;
+.hero__foto {
+  flex-shrink: 0;
+  /* mantiene tamaño */
+  display: flex;
+  justify-content: center;
   margin-top: 2rem;
-  box-shadow: 6px 6px 12px rgba(0,0,0,.06);
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, .06);
 }
 
-.marco-foto img{
-  width:180px; height:240px;
-  object-fit:cover;
-  border: 8px solid rgba(0,0,0,.06);
+.marco-foto img {
+  width: 180px;
+  height: 240px;
+  object-fit: cover;
+  border: 8px solid rgba(0, 0, 0, .06);
 }

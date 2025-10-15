@@ -1,13 +1,16 @@
 /* Sección de Experiencias */
 
-.experience{
-  background:#f9fafc;           /* fondo gris muy claro */
-  padding:72px 0;
+.experience {
+  background: #f9fafc;
+  /* fondo gris muy claro */
+  padding: 72px 0;
 }
 
-.experience__inner{ text-align:center; }
+.experience__inner {
+  text-align: center;
+}
 
-.experience__eyebrow{
+.experience__eyebrow {
   display: inline-block;
   background: #eef2ff;
   color: #3b4cca;
@@ -18,7 +21,7 @@
   margin-bottom: 16px;
 }
 
-.experience__title{
+.experience__title {
   font-size: 1.75rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -27,68 +30,78 @@
 }
 
 /* Lista y tarjetas */
-.experience__list{
-  list-style:none;
-  margin:0 auto;
-  padding:0;
-  max-width:980px;
-  display:flex;
-  flex-direction:column;
-  gap:24px;
+.experience__list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 980px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 /* 3 columnas: logo | contenido | fecha */
-.experience__item{
-  background:#fff;
-  border:1px solid var(--border, #e6e8ef);
-  border-radius:16px;
-  box-shadow:0 6px 16px rgba(0,0,0,.06);
-  padding:20px 24px;
-  display:grid;
-  grid-template-columns:72px 1fr max-content;
-  column-gap:16px;
-  row-gap:8px;
-  align-items:start;
-  text-align:left;              /* evita centrado del texto dentro */
+.experience__item {
+  background: #fff;
+  border: 1px solid var(--border, #e6e8ef);
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, .06);
+  padding: 20px 24px;
+  display: grid;
+  grid-template-columns: 72px 1fr max-content;
+  column-gap: 16px;
+  row-gap: 8px;
+  align-items: start;
+  text-align: left;
+  /* evita centrado del texto dentro */
 }
 
 /* Logo (col 1) */
-.xp__logo{
-  grid-column:1; grid-row:1 / span 2;
-  width:60px; height:60px;
-  object-fit:contain;
-  display:block;
-  margin-top:4px;
+.xp__logo {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+  margin-top: 4px;
 }
 
 /* Cabecera: rol (col 2) + fecha (col 3) en misma fila */
-.xp__role{
-  grid-column:2; grid-row:1;
-  margin:0;
-  font-weight:700;
-  font-size:1.06rem;
-  color:var(--text, #0f172a);
+.xp__role {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.06rem;
+  color: var(--text, #0f172a);
 }
 
-.xp__date{
-  grid-column:3; grid-row:1;
-  justify-self:end;
-  align-self:start;
-  white-space:nowrap;
-  font-size:.95rem;
-  font-weight:500;
-  color:#6b7280;
+.xp__date {
+  grid-column: 3;
+  grid-row: 1;
+  justify-self: end;
+  align-self: start;
+  white-space: nowrap;
+  font-size: .95rem;
+  font-weight: 500;
+  color: #6b7280;
 }
 
 /* Bullets debajo, ocupando contenido (col 2 → 3) */
-.xp__bullets{
-  grid-column:2 / 4; grid-row:2;
-  margin:0;
-  padding-left:18px;            /* sangría del punto */
-  list-style:disc;
-  list-style-position:outside;
-  color:#374151;
-  font-size:.95rem;
-  line-height:1.5;
+.xp__bullets {
+  grid-column: 2 / 4;
+  grid-row: 2;
+  margin: 0;
+  padding-left: 18px;
+  /* sangría del punto */
+  list-style: disc;
+  list-style-position: outside;
+  color: #374151;
+  font-size: .95rem;
+  line-height: 1.5;
 }
-.xp__bullets li{ margin-bottom:6px; }
+
+.xp__bullets li {
+  margin-bottom: 6px;
+}

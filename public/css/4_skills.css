@@ -5,7 +5,8 @@
 }
 
 .skills .container {
-  width: min(100% - 32px, 1280px); /* más ancho que el resto */
+  width: min(100% - 32px, 1280px);
+  /* más ancho que el resto */
   margin: 0 auto;
 }
 
@@ -29,7 +30,8 @@
   font-weight: 700;
   margin-bottom: 1rem;
   color: #0f172a;
-  margin: 0 0 36px; /* más espacio debajo del título */
+  margin: 0 0 36px;
+  /* más espacio debajo del título */
 }
 
 /* grid responsivo */
@@ -38,9 +40,12 @@
   margin: 0 auto;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /* columnas más anchas */
-  gap: 34px 28px; /* más separación entre tarjetas */
-  max-width: 1100px; /* ensanchar límite de la grid */
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  /* columnas más anchas */
+  gap: 34px 28px;
+  /* más separación entre tarjetas */
+  max-width: 1100px;
+  /* ensanchar límite de la grid */
 }
 
 /* tarjeta de cada skill */
@@ -53,18 +58,22 @@
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 14px;
-  box-shadow: 0 6px 16px rgba(0,0,0,.06); /* sombra sutil */
-  transition: transform .12s ease, box-shadow .12s ease; /* animación suave al hacer mover */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, .06);
+  /* sombra sutil */
+  transition: transform .12s ease, box-shadow .12s ease;
+  /* animación suave al hacer mover */
 }
 
-.skill:hover {  /* efecto al pasar el ratón */
+.skill:hover {
+  /* efecto al pasar el ratón */
   transform: translateY(-2px);
-  box-shadow: 0 10px 22px rgba(0,0,0,.10);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, .10);
 }
 
 /* icono como imagen */
 .skill__img {
-  width: 64px;   /* un poco más grande */
+  width: 64px;
+  /* un poco más grande */
   height: 64px;
   object-fit: contain;
   display: block;
