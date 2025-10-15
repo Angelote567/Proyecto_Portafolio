@@ -1,37 +1,41 @@
-*** Portfolio Angel Moline***
+*** Portfolio Angel Moline ***
 
-En este trabajo he abordado la creación de una página web, en la cual debia realizar un portfolio con información curricular.
+In this project, I worked on creating a website in which I had to develop a portfolio with curricular information.
 
-Para el diseño del portfolio nme he basado en un Figma, el cual ya estaba creado.
-Enlace al Figma: https://www.figma.com/community/file/1262992249991763120
+For the design of the portfolio, I based it on an existing Figma file.
+Figma link: https://www.figma.com/community/file/1262992249991763120
 
-Para llevarlo a cabo, he decidido ir creando diferentes segmentos, de los cuales cada uno va a tener un diferente *css* de tal manera que en cada sección podemos encontrar un *css*.
+To implement it, I decided to create different segments, each one with its own CSS so that every section has a specific style.
 
-Estas son las diferentes secciones con sus correspondientes *css*: 
+These are the different sections with their corresponding CSS files:
 
-1. Barra principal de navegación    ---> "1_styless.css"
-2. Bloque de presentación           ---> "2_hero.css"
-3. Sección sobre mí                 ---> "3_sobre-mi.css"
-4. Sección de habilidaddes (skills) ---> "4_skills.css"
-5. Sección de experiencias          ---> "5_experience.css"
-6. Sección de proyectos             ---> "6_work.css"
-7. Sección de testimonios           ---> "7_testimonial.css"
-8. Sección de contactos             ---> "8_contacts.css"
-9. Bloque de cierre (final)         ---> "1_styless.css"
+1. Main navigation bar   ---> "1_styless.css"
+2. Presentation block    ---> "2_hero.css"
+3. About me section      ---> "3_sobre-mi.css"
+4. Skills section        ---> "4_skills.css"
+5. Experience section    ---> "5_experience.css"
+6. Projects section      ---> "6_work.css"
+7. Testimonials section  ---> "7_testimonial.css"
+8. Contacts section      ---> "8_contacts.css"
+9. Closing block (final) ---> "1_styless.css"
 
-Como podemos observar, tambien tenemos una carpeta de *Fotos*, en la cual tenemos todas las imagenes que he incorporado en el portfolio y mi cv(Para que no quedara con el resto de archivos).
+As we can see, there is also a Photos folder, which contains all the images included in the portfolio and my CV (to keep it separate from the rest of the files).
 
-Por último mencionar, que los siguientes archivos estan siendo utilizados para poder publicar la pagina web a través de firebase, por lo que se agradeceria no modificarlos:
+Finally, the following files are being used to publish the website through Firebase, so it would be appreciated if they are not modified:
 
 1. ".firebaserc"
 2. "firebase.json"
 3. ".firebase"
 4. "404.html"
 
-Esta es la url para poder ver el portfolio publicado: https://fgdsfgsasdfsdgewtrsdfdsfsdsda.web.app
+Here is the URL to view the published portfolio: https://fgdsfgsasdfsdgewtrsdfdsfsdsda.web.app
 
-Cualquier duda, se me puede consultar a este correo: molineangel67@gmail.com
+For any questions, feel free to contact me at this email: molineangel67@gmail.com
 
-Gracias por visitar mi Portfolio.
+Thank you for visiting my Portfolio.
 
 Ángel Moliné Arruebo.
+
+Enlace GitHub: https://github.com/Angelote567/Proyecto_Portafolio
+
+Las diferentes capturas del resultado del portfolio las podemos ver en la carpeta "Imagenes_Portfolio"
